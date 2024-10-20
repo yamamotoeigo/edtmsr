@@ -1,0 +1,17 @@
+Bicubic Interpolation MAE: 38508.2873
+Bicubic Interpolation MAE: 57272.8198
+Bicubic Interpolation MAE: 47550.8284
+Bicubic Interpolation MAE: 66619.8463
+Bicubic Interpolation MAE: 50682.9787
+Bicubic Interpolation MAE: 38338.1531
+Bicubic Interpolation MAE: 57530.9270
+Bicubic Interpolation MAE: 92218.4329
+Bicubic Interpolation MAE: 37512.9950
+Bicubic Interpolation MAE: 45834.0039
+Bicubic Interpolation MAE: 34975.3537
+Bicubic Interpolation MAE: 37723.3357
+Bicubic Interpolation MAE: 46335.3350
+Bicubic Interpolation MAE: 43709.5507
+Bicubic Interpolation MAE: 36505.3803
+Bicubic Interpolation MAE (All Data): 63519.3048
+Bicubic Interpolation MAE (All Data): 63519.3048

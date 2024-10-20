@@ -1,0 +1,305 @@
+torch.Size([387720, 18, 18])
+torch.Size([387720, 9, 9])
+SRDenseNet(
+  (conv1): Conv2d(1, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+  (dense_blocks): ModuleList(
+    (0): DenseBlock(
+      (layers): ModuleList(
+        (0): Sequential(
+          (0): Conv2d(64, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (1): Sequential(
+          (0): Conv2d(80, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (2): Sequential(
+          (0): Conv2d(96, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (3): Sequential(
+          (0): Conv2d(112, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (4): Sequential(
+          (0): Conv2d(128, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (5): Sequential(
+          (0): Conv2d(144, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (6): Sequential(
+          (0): Conv2d(160, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (7): Sequential(
+          (0): Conv2d(176, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+      )
+    )
+    (1): DenseBlock(
+      (layers): ModuleList(
+        (0): Sequential(
+          (0): Conv2d(192, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (1): Sequential(
+          (0): Conv2d(208, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (2): Sequential(
+          (0): Conv2d(224, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (3): Sequential(
+          (0): Conv2d(240, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (4): Sequential(
+          (0): Conv2d(256, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (5): Sequential(
+          (0): Conv2d(272, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (6): Sequential(
+          (0): Conv2d(288, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (7): Sequential(
+          (0): Conv2d(304, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+      )
+    )
+    (2): DenseBlock(
+      (layers): ModuleList(
+        (0): Sequential(
+          (0): Conv2d(320, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (1): Sequential(
+          (0): Conv2d(336, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (2): Sequential(
+          (0): Conv2d(352, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (3): Sequential(
+          (0): Conv2d(368, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (4): Sequential(
+          (0): Conv2d(384, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (5): Sequential(
+          (0): Conv2d(400, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (6): Sequential(
+          (0): Conv2d(416, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (7): Sequential(
+          (0): Conv2d(432, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+      )
+    )
+    (3): DenseBlock(
+      (layers): ModuleList(
+        (0): Sequential(
+          (0): Conv2d(448, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (1): Sequential(
+          (0): Conv2d(464, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (2): Sequential(
+          (0): Conv2d(480, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (3): Sequential(
+          (0): Conv2d(496, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (4): Sequential(
+          (0): Conv2d(512, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (5): Sequential(
+          (0): Conv2d(528, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (6): Sequential(
+          (0): Conv2d(544, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (7): Sequential(
+          (0): Conv2d(560, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+      )
+    )
+    (4): DenseBlock(
+      (layers): ModuleList(
+        (0): Sequential(
+          (0): Conv2d(576, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (1): Sequential(
+          (0): Conv2d(592, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (2): Sequential(
+          (0): Conv2d(608, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (3): Sequential(
+          (0): Conv2d(624, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (4): Sequential(
+          (0): Conv2d(640, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (5): Sequential(
+          (0): Conv2d(656, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (6): Sequential(
+          (0): Conv2d(672, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (7): Sequential(
+          (0): Conv2d(688, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+      )
+    )
+    (5): DenseBlock(
+      (layers): ModuleList(
+        (0): Sequential(
+          (0): Conv2d(704, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (1): Sequential(
+          (0): Conv2d(720, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (2): Sequential(
+          (0): Conv2d(736, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (3): Sequential(
+          (0): Conv2d(752, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (4): Sequential(
+          (0): Conv2d(768, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (5): Sequential(
+          (0): Conv2d(784, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (6): Sequential(
+          (0): Conv2d(800, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (7): Sequential(
+          (0): Conv2d(816, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+      )
+    )
+    (6): DenseBlock(
+      (layers): ModuleList(
+        (0): Sequential(
+          (0): Conv2d(832, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (1): Sequential(
+          (0): Conv2d(848, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (2): Sequential(
+          (0): Conv2d(864, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (3): Sequential(
+          (0): Conv2d(880, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (4): Sequential(
+          (0): Conv2d(896, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (5): Sequential(
+          (0): Conv2d(912, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (6): Sequential(
+          (0): Conv2d(928, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (7): Sequential(
+          (0): Conv2d(944, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+      )
+    )
+    (7): DenseBlock(
+      (layers): ModuleList(
+        (0): Sequential(
+          (0): Conv2d(960, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (1): Sequential(
+          (0): Conv2d(976, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (2): Sequential(
+          (0): Conv2d(992, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (3): Sequential(
+          (0): Conv2d(1008, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (4): Sequential(
+          (0): Conv2d(1024, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (5): Sequential(
+          (0): Conv2d(1040, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (6): Sequential(
+          (0): Conv2d(1056, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+        (7): Sequential(
+          (0): Conv2d(1072, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+          (1): ReLU(inplace=True)
+        )
+      )
+    )
+  )
+  (bottleneck): BottleneckLayer(
+    (conv): Conv2d(1088, 256, kernel_size=(1, 1), stride=(1, 1))
+    (relu): ReLU(inplace=True)
+  )
+  (upsample): Sequential(
+    (0): Conv2d(256, 1024, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): PixelShuffle(upscale_factor=2)
+    (2): ReLU(inplace=True)
+  )
+  (conv2): Conv2d(256, 1, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+)

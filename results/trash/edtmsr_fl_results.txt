@@ -1,0 +1,14 @@
+Training and evaluation took 468.77 seconds.
+Test Loss: 1.0756
+Number of parameters in the model: 739777
+Round losses:
+Round 1: 1.5682
+Round 2: 1.3966
+Round 3: 1.3041
+Round 4: 1.2428
+Round 5: 1.1997
+Round 6: 1.1672
+Round 7: 1.1361
+Round 8: 1.1124
+Round 9: 1.0919
+Round 10: 1.0756

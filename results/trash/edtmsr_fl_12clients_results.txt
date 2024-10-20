@@ -1,0 +1,70 @@
+Num clients: 12
+Training and evaluation took 2327.72 seconds.
+Test Loss: 0.6997
+Number of parameters in the model: 739777
+Round losses:
+Round 1: 1.5671
+Round 2: 1.6747
+Round 3: 1.0485
+Round 4: 1.1707
+Round 5: 0.8928
+Round 6: 0.8689
+Round 7: 0.9218
+Round 8: 0.8271
+Round 9: 0.8984
+Round 10: 0.8006
+Round 11: 0.8402
+Round 12: 0.7832
+Round 13: 0.7913
+Round 14: 0.8575
+Round 15: 0.7656
+Round 16: 0.8836
+Round 17: 0.7723
+Round 18: 0.7969
+Round 19: 0.7481
+Round 20: 0.7839
+Round 21: 0.7506
+Round 22: 0.7408
+Round 23: 0.7486
+Round 24: 0.7307
+Round 25: 0.7490
+Round 26: 0.7485
+Round 27: 0.7336
+Round 28: 0.7361
+Round 29: 0.7251
+Round 30: 0.7305
+Round 31: 0.7389
+Round 32: 0.7177
+Round 33: 0.7064
+Round 34: 0.7396
+Round 35: 0.6994
+Round 36: 0.7309
+Round 37: 0.7026
+Round 38: 0.7701
+Round 39: 0.6930
+Round 40: 0.8272
+Round 41: 0.7019
+Round 42: 0.7173
+Round 43: 0.7132
+Round 44: 0.7097
+Round 45: 0.6853
+Round 46: 0.7038
+Round 47: 0.6900
+Round 48: 0.6902
+Round 49: 0.7851
+Round 50: 0.6997
+
+Config:
+dataset_names: {'high': 'high_TM', 'low': 'low_TM'}
+filenames: {'high': 'data/high_matrices.h5', 'low': 'data/low_matrices.h5'}
+normalize: False
+standardize: False
+log_normalize: True
+batch_size: 128
+learning_rate: 0.003
+num_epochs: 50
+model_type: edtmsr
+num_clients: 12
+num_rounds: 50
+output_model_filename: model/edtmsr_model.pth
+results_filename: results/edtmsr_fl_12clients_results.txt

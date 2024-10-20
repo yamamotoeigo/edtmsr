@@ -1,0 +1,9 @@
+# 大きなファイルを無視する
+/test_inputs.pt
+/test_outputs.pt
+/test_targets.pt
+/data/high_matrices.h5
+/data/low_matrices.h5
+/low_matrices.h5
+/origin_data
+/venv

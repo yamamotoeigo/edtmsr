@@ -1,0 +1,70 @@
+Num clients: 7
+Training and evaluation took 2084.49 seconds.
+Test Loss: 0.6898
+Number of parameters in the model: 304257
+Round losses:
+Round 1: 1.5921
+Round 2: 1.0735
+Round 3: 0.9484
+Round 4: 0.8884
+Round 5: 0.8524
+Round 6: 0.8284
+Round 7: 0.8108
+Round 8: 0.7968
+Round 9: 0.7862
+Round 10: 0.7775
+Round 11: 0.7708
+Round 12: 0.7648
+Round 13: 0.7579
+Round 14: 0.7528
+Round 15: 0.7482
+Round 16: 0.7435
+Round 17: 0.7406
+Round 18: 0.7367
+Round 19: 0.7339
+Round 20: 0.7309
+Round 21: 0.7284
+Round 22: 0.7266
+Round 23: 0.7236
+Round 24: 0.7210
+Round 25: 0.7188
+Round 26: 0.7173
+Round 27: 0.7168
+Round 28: 0.7134
+Round 29: 0.7124
+Round 30: 0.7104
+Round 31: 0.7087
+Round 32: 0.7088
+Round 33: 0.7058
+Round 34: 0.7046
+Round 35: 0.7033
+Round 36: 0.7033
+Round 37: 0.7012
+Round 38: 0.7005
+Round 39: 0.6994
+Round 40: 0.6996
+Round 41: 0.6991
+Round 42: 0.6961
+Round 43: 0.6954
+Round 44: 0.6947
+Round 45: 0.6931
+Round 46: 0.6935
+Round 47: 0.6918
+Round 48: 0.6919
+Round 49: 0.6901
+Round 50: 0.6898
+
+Config:
+dataset_names: {'high': 'high_TM', 'low': 'low_TM'}
+filenames: {'high': 'data/high_matrices.h5', 'low': 'data/low_matrices.h5'}
+normalize: False
+standardize: False
+log_normalize: True
+batch_size: 128
+learning_rate: 0.001
+num_epochs: 50
+model_type: srtdn
+num_clients: 7
+num_rounds: 50
+output_model_filename: model/srtdn_model.pth
+results_filename: results/srtdn_fl_7clients_results.txt

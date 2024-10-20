@@ -1,0 +1,37 @@
+Training and evaluation took 390.07 seconds.
+Test Loss: 0.7155, Test PSNR: -0.75
+Number of parameters in the model: 304257
+Train Losses per epoch:
+Epoch 1: 1.1566
+Epoch 2: 0.8547
+Epoch 3: 0.7952
+Epoch 4: 0.7643
+Epoch 5: 0.7448
+Epoch 6: 0.7319
+Epoch 7: 0.7226
+Epoch 8: 0.7157
+Epoch 9: 0.7095
+Epoch 10: 0.7049
+Validation Losses per epoch:
+Epoch 1: 0.9077
+Epoch 2: 0.8226
+Epoch 3: 0.7761
+Epoch 4: 0.7935
+Epoch 5: 0.7725
+Epoch 6: 0.7244
+Epoch 7: 0.7177
+Epoch 8: 0.7101
+Epoch 9: 0.7129
+Epoch 10: 0.7148
+Config parameters:
+dataset_names: {'high': 'high_TM', 'low': 'low_TM'}
+filenames: {'high': 'data/high_matrices.h5', 'low': 'data/low_matrices.h5'}
+normalize: False
+standardize: False
+log_normalize: True
+batch_size: 128
+learning_rate: 0.001
+num_epochs: 10
+model_type: srtdn
+output_model_filename: model/srtdn_model.pth
+results_filename: results/srtdn_10result.txt

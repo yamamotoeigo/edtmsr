@@ -1,0 +1,70 @@
+Num clients: 10
+Training and evaluation took 2310.36 seconds.
+Test Loss: 29825.1902
+Number of parameters in the model: 739777
+Round losses:
+Round 1: 63666.0090
+Round 2: 59651.2454
+Round 3: 56905.5504
+Round 4: 52396.4210
+Round 5: 51618.8720
+Round 6: 47921.7725
+Round 7: 46125.4560
+Round 8: 45840.5256
+Round 9: 49819.7809
+Round 10: 46949.1166
+Round 11: 46461.2170
+Round 12: 40386.3326
+Round 13: 44577.5989
+Round 14: 43563.7857
+Round 15: 41959.1029
+Round 16: 38356.2533
+Round 17: 38762.4975
+Round 18: 39412.5554
+Round 19: 39660.9213
+Round 20: 36046.8129
+Round 21: 46189.0521
+Round 22: 34857.9031
+Round 23: 36285.9242
+Round 24: 35764.2933
+Round 25: 36256.7813
+Round 26: 35936.3352
+Round 27: 38171.0727
+Round 28: 37021.1205
+Round 29: 35393.7546
+Round 30: 33745.4713
+Round 31: 38011.3493
+Round 32: 32166.0561
+Round 33: 35289.5240
+Round 34: 33035.2577
+Round 35: 34044.6775
+Round 36: 33189.2491
+Round 37: 31237.2275
+Round 38: 34895.0178
+Round 39: 31359.6598
+Round 40: 31360.7992
+Round 41: 34095.1865
+Round 42: 33648.4388
+Round 43: 32086.1256
+Round 44: 31308.6816
+Round 45: 31896.4954
+Round 46: 33990.2262
+Round 47: 31544.5326
+Round 48: 29739.1536
+Round 49: 29894.8720
+Round 50: 29825.1902
+
+Config:
+dataset_names: {'high': 'high_TM', 'low': 'low_TM'}
+filenames: {'high': 'data/high_matrices.h5', 'low': 'data/low_matrices.h5'}
+normalize: False
+standardize: False
+log_normalize: False
+batch_size: 128
+learning_rate: 0.0001
+num_epochs: 50
+model_type: edtmsr
+num_clients: 10
+num_rounds: 50
+output_model_filename: model/edtmsr_model.pth
+results_filename: results/edtmsr_fl_2clients_results.txt

@@ -1,0 +1,120 @@
+Num clients: 3
+Training and evaluation took 18847.29 seconds.
+Test Loss: 6034.1555
+Number of parameters in the model: 739777
+Round losses:
+Round 1: 47695.9715
+Round 2: 48141.7567
+Round 3: 40760.8246
+Round 4: 38797.2038
+Round 5: 43719.8892
+Round 6: 27064.1273
+Round 7: 29003.2520
+Round 8: 30472.6131
+Round 9: 30285.6468
+Round 10: 27905.2068
+Round 11: 27501.0043
+Round 12: 29875.0951
+Round 13: 25097.0694
+Round 14: 26032.7342
+Round 15: 21624.3983
+Round 16: 23344.3315
+Round 17: 23232.2926
+Round 18: 20082.6621
+Round 19: 20428.8607
+Round 20: 20823.2112
+Round 21: 20816.6740
+Round 22: 19175.1505
+Round 23: 19967.7429
+Round 24: 17998.4376
+Round 25: 17823.5802
+Round 26: 20059.3540
+Round 27: 17493.5732
+Round 28: 16509.0562
+Round 29: 20656.9564
+Round 30: 16523.7831
+Round 31: 19330.8368
+Round 32: 15526.4013
+Round 33: 15202.9921
+Round 34: 14401.9005
+Round 35: 16207.4359
+Round 36: 13380.3640
+Round 37: 13769.2378
+Round 38: 14389.7494
+Round 39: 13128.4106
+Round 40: 12563.3392
+Round 41: 14687.4398
+Round 42: 14134.7368
+Round 43: 13764.8898
+Round 44: 11474.9795
+Round 45: 11705.8952
+Round 46: 12004.9961
+Round 47: 10913.8400
+Round 48: 11120.3307
+Round 49: 10289.8157
+Round 50: 10517.4786
+Round 51: 10755.3415
+Round 52: 9407.4410
+Round 53: 12372.0975
+Round 54: 10518.8001
+Round 55: 11448.9099
+Round 56: 11193.5899
+Round 57: 8842.9047
+Round 58: 8874.0977
+Round 59: 9674.8599
+Round 60: 10009.7606
+Round 61: 10122.2125
+Round 62: 7922.3711
+Round 63: 10151.7758
+Round 64: 11679.1422
+Round 65: 9488.3388
+Round 66: 11018.3222
+Round 67: 9865.8090
+Round 68: 7252.7540
+Round 69: 8351.4111
+Round 70: 8687.6922
+Round 71: 10456.5607
+Round 72: 7473.9837
+Round 73: 8858.2060
+Round 74: 7370.6382
+Round 75: 8737.1492
+Round 76: 7707.5500
+Round 77: 7474.3309
+Round 78: 7090.7743
+Round 79: 7840.5531
+Round 80: 7726.3168
+Round 81: 5867.4518
+Round 82: 7003.5491
+Round 83: 7379.7907
+Round 84: 7359.4592
+Round 85: 6690.4948
+Round 86: 7191.9362
+Round 87: 7796.6299
+Round 88: 6709.6300
+Round 89: 6746.5312
+Round 90: 7544.4648
+Round 91: 6423.9558
+Round 92: 5801.4665
+Round 93: 7066.7967
+Round 94: 6442.8853
+Round 95: 6730.9058
+Round 96: 7160.6100
+Round 97: 5634.4237
+Round 98: 6553.3806
+Round 99: 7438.9785
+Round 100: 6034.1555
+
+Config:
+high_res_file: data/high_matrices.h5
+low_res_file: data/low_matrices.h5
+model_type: edtmsr
+num_clients: 3
+batch_size: 128
+learning_rate: 0.0001
+num_epochs: 100
+num_rounds: 100
+normalize: False
+standardize: False
+log_normalize: False
+output_model_filename: model/edtmsr_model.pth
+results_filename: results/edtmsr/edtmsr_3clients_results.txt

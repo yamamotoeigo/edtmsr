@@ -1,0 +1,117 @@
+Training and evaluation took 1664.25 seconds.
+Test Loss: 10107.1783, Test PSNR: -87.62
+Number of parameters in the model: 159109
+Train Losses per epoch:
+Epoch 1: 77173.2078
+Epoch 2: 52467.1239
+Epoch 3: 44127.2968
+Epoch 4: 40285.6213
+Epoch 5: 36838.9886
+Epoch 6: 34686.3519
+Epoch 7: 32465.8606
+Epoch 8: 30396.1248
+Epoch 9: 28304.1278
+Epoch 10: 26460.5949
+Epoch 11: 25357.9892
+Epoch 12: 24170.9368
+Epoch 13: 22895.7929
+Epoch 14: 21851.4810
+Epoch 15: 20963.0409
+Epoch 16: 20281.8456
+Epoch 17: 19408.3222
+Epoch 18: 18219.1652
+Epoch 19: 17934.7078
+Epoch 20: 17142.4686
+Epoch 21: 16589.4386
+Epoch 22: 15806.4541
+Epoch 23: 15479.2566
+Epoch 24: 14746.7726
+Epoch 25: 14532.7986
+Epoch 26: 13856.8027
+Epoch 27: 13508.4806
+Epoch 28: 12957.5928
+Epoch 29: 12593.7308
+Epoch 30: 12394.8191
+Epoch 31: 12079.3097
+Epoch 32: 11668.6651
+Epoch 33: 11410.4088
+Epoch 34: 11416.0940
+Epoch 35: 11028.3232
+Epoch 36: 10543.3322
+Epoch 37: 10480.6069
+Epoch 38: 10595.2116
+Epoch 39: 10040.2418
+Epoch 40: 9861.6397
+Epoch 41: 9652.8243
+Epoch 42: 9659.5328
+Epoch 43: 9442.2913
+Epoch 44: 9224.7672
+Epoch 45: 9252.6779
+Epoch 46: 8908.7852
+Epoch 47: 8987.3610
+Epoch 48: 8746.2247
+Epoch 49: 8624.5403
+Epoch 50: 8409.4761
+Validation Losses per epoch:
+Epoch 1: 42919.9464
+Epoch 2: 43234.2987
+Epoch 3: 45636.2671
+Epoch 4: 32357.8491
+Epoch 5: 30430.6066
+Epoch 6: 30393.2499
+Epoch 7: 28518.0129
+Epoch 8: 26735.2099
+Epoch 9: 24971.2328
+Epoch 10: 24817.3029
+Epoch 11: 23470.0307
+Epoch 12: 22854.2862
+Epoch 13: 21382.5379
+Epoch 14: 22629.7022
+Epoch 15: 19981.1521
+Epoch 16: 19240.8504
+Epoch 17: 20151.2295
+Epoch 18: 18322.9474
+Epoch 19: 17521.6601
+Epoch 20: 17542.8420
+Epoch 21: 16457.4921
+Epoch 22: 16043.2162
+Epoch 23: 15640.8264
+Epoch 24: 15969.1435
+Epoch 25: 14607.2070
+Epoch 26: 15024.0756
+Epoch 27: 14047.4034
+Epoch 28: 14424.1785
+Epoch 29: 13743.2282
+Epoch 30: 13425.6597
+Epoch 31: 14242.3647
+Epoch 32: 13250.1975
+Epoch 33: 12306.0473
+Epoch 34: 12251.0160
+Epoch 35: 12353.3913
+Epoch 36: 12144.0986
+Epoch 37: 11891.9805
+Epoch 38: 11931.9460
+Epoch 39: 11340.8325
+Epoch 40: 11562.9516
+Epoch 41: 11907.1599
+Epoch 42: 11074.5575
+Epoch 43: 10908.1028
+Epoch 44: 11053.1723
+Epoch 45: 11004.4028
+Epoch 46: 11606.8406
+Epoch 47: 10349.1954
+Epoch 48: 10416.1436
+Epoch 49: 10574.8751
+Epoch 50: 10141.9147
+Config parameters:
+dataset_names: {'high': 'high_TM', 'low': 'low_TM'}
+filenames: {'high': 'data/high_matrices.h5', 'low': 'data/low_matrices.h5'}
+normalize: False
+standardize: False
+log_normalize: False
+batch_size: 128
+learning_rate: 0.0001
+num_epochs: 50
+model_type: srtdn
+output_model_filename: model/srtdn_model.pth
+results_filename: results/srtdn_2result.txt
